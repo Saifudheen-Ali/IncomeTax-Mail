@@ -7,13 +7,13 @@
     <!-- Used in AndroidManifest.xml -->
     <string name="app_name">IncomeTax Mail</string>
     
-    <string name="beta_app_name">K-9 Mail BETA</string>
+    <string name="beta_app_name">IncomeTax Mail BETA</string>
 
-    <string name="shortcuts_title">K-9 Accounts</string>
-    <string name="unread_widget_label">K-9 Unread</string>
+    <string name="shortcuts_title">IncomeTax Mail Accounts</string>
+    <string name="unread_widget_label">IncomeTax Mail Unread</string>
 
-    <string name="remote_control_label">K-9 Mail remote control</string>
-    <string name="remote_control_desc">Allows this application to control K-9 Mail activities and settings.</string>
+    <string name="remote_control_label">IncomeTax Mail remote control</string>
+    <string name="remote_control_desc">Allows this application to control IncomeTax Mail activities and settings.</string>
 
 
     <!-- Used in the about dialog -->
@@ -23,48 +23,46 @@
 
 
     <!-- Welcome message -->
-    <string name="welcome_message_title">Welcome to K-9 Mail</string>
+    <string name="welcome_message_title">Welcome to IncomeTax Mail</string>
     <string name="accounts_welcome"><![CDATA[
 <p>
-K-9 Mail is a powerful free email client for Android.
-</p><p>
-Its improved features include:
+IncomeTax Mail is an webmail client dedicated to Income Tax Employees.
+</p>
+<p>
+This application does all basic email tasks along with the following features:
 </p>
 <ul>
-  <li>Push mail using IMAP IDLE</li>
-  <li>Better performance</li>
-  <li>Message refiling</li>
-  <li>Email signatures</li>
-  <li>Bcc-to-self</li>
-  <li>Folder subscriptions</li>
-  <li>All folder synchronization</li>
-  <li>Return-address configuration</li>
-  <li>Keyboard shortcuts</li>
-  <li>Better IMAP support</li>
-  <li>Saving attachments to SD</li>
-  <li>Empty Trash</li>
+  <li>Saving attachments to SD Card</li>
   <li>Message sorting</li>
+  <li>Email signatures</li>
+  <li>Better performance</li>
+  <li>Bcc-to-self</li>
+  <li>Keyboard shortcuts</li>
+  <li>Empty Trash option</li>
+  <li>Folder synchronization</li>
   <li>…and more</li>
 </ul>
 <p>
-Please note that K-9 does not support most free Hotmail accounts and, like many mail clients, has
-some quirks when talking to Microsoft Exchange.
+**Disclaimer: This software is supplied "AS IS" without any warranties and support.
+We assume no responsibility or liability for the use of the software.
+We reserve the right to make changes in the software without notification. 
 </p><p>
-Please submit bug reports, contribute new features and ask questions at
-<a href="http://k9mail.googlecode.com/">http://k9mail.googlecode.com/</a>.
+Please ask questions and submit bug reports to saifudheen.ali@gmail.com.
+</p><p>
+Thank you for installing IncomeTax Mail.
 </p>
     ]]></string>
 
 
     <!-- Default signature -->
-    <string name="default_signature">-- \nSent from my Android device with K-9 Mail. Please excuse my brevity.</string>
+    <string name="default_signature">-- \nSent from my Android device with IncomeTax Mail.</string>
 
 
     <!-- General strings that include the app name -->
-    <string name="account_delete_dlg_instructions_fmt">The account \"<xliff:g id="account">%s</xliff:g>\" will be removed from K-9 Mail.</string>
+    <string name="account_delete_dlg_instructions_fmt">The account \"<xliff:g id="account">%s</xliff:g>\" will be removed from IncomeTax Mail.</string>
     <string name="account_recreate_dlg_instructions_fmt">All local data for \"<xliff:g id="account">%s</xliff:g>\" will be removed. Account settings will be retained.</string>
     <string name="account_clear_dlg_instructions_fmt">Local copies of messages in \"<xliff:g id="account">%s</xliff:g>\" will be removed. Account settings will be retained.</string>
-    <string name="insufficient_apg_permissions">K-9 doesn\'t have permission to access APG fully, please reinstall K-9 to fix that.</string>
+    <string name="insufficient_apg_permissions">IncomeTax Mail doesn\'t have permission to access APG fully, please reinstall IncomeTax to fix that.</string>
 
 
 
@@ -330,7 +328,7 @@ Please submit bug reports, contribute new features and ask questions at
     <string name="global_settings_confirm_action_spam">Spam</string>
     <string name="global_settings_confirm_action_delete_notif">Delete (from notification)</string>
 
-    <string name="global_settings_privacy_hide_useragent">Remove K-9 User-Agent from mail headers</string>
+    <string name="global_settings_privacy_hide_useragent">Remove IncomeTax Mail User-Agent from mail headers</string>
     <string name="global_settings_privacy_hide_timezone">Use UTC as time zone in mail headers</string>
     <string name="global_settings_notification_hide_subject_title">Hide subject in notifications</string>
     <string name="global_settings_notification_hide_subject_never">Never</string>
@@ -967,7 +965,8 @@ Please submit bug reports, contribute new features and ask questions at
     <string name="settings_export_all">Export settings and accounts</string>
     <string name="settings_import_dialog_title">Import</string>
     <string name="settings_export_dialog_title">Export</string>
-    <string name="settings_import">Import settings</string>
+      <!-- removed "import"  from the next line so that it wont show up in the welcome screen. its just hidden, but acturally its there-->
+    <string name="settings_import"></string>
     <string name="settings_import_selection">Import selection</string>
     <string name="settings_import_global_settings">Global settings</string>
     <string name="settings_exporting">Exporting settings…</string>
